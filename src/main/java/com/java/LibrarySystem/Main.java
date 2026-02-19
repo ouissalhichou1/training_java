@@ -14,13 +14,13 @@ public class Main {
         LibraryService library = new LibraryService(emailService);
 
         Item book = new Book("Clean Code");
-        Item magazine = new Magazine("Tech Weekly");
+        Item magazine = new Magazine("Tech hours");
 
         library.addItem(book);
         library.addItem(magazine);
 
-        Member normal = new Member("Ali");
-        Member premium = new PremiumMember("Sara");
+        Member normal = new Member("Ouissal");
+        Member premium = new PremiumMember("fatima");
 
         library.borrow(normal, book);
         library.returnItem(normal, book, 3);
