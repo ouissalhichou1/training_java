@@ -54,4 +54,15 @@ public class Employee {
     public void setYearOfBirth(int yearOfBirth) {
         this.yearOfBirth = yearOfBirth;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", emailAddress='" + emailAddress + '\'' +
+                ", department='" + department + '\'' +
+                ", Address='" + Address + '\'' +
+                ", yearOfBirth=" + yearOfBirth +
+                '}';
+    }
 }
